@@ -22,22 +22,22 @@ GET /person/{id}
 // create a new record
 POST /person
 Payload: 
-...
+```
 {
     "firstname": "value",
     "lastname": "value"
 }
-...
+```
 
 // update an existing record
 PUT /person/{id}
 Payload: 
-...
+```
 {
     "firstname": "value",
     "lastname": "value"
 }
-...
+```
 
 // delete an existing record
 DELETE /person/{id}
